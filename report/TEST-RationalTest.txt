@@ -1,0 +1,7 @@
+Testsuite: RationalTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+
+Testcase: testAdd took 0.003 sec
+Testcase: testEqual took 0 sec
+Testcase: testSubstract took 0 sec
+Testcase: testMultiply took 0 sec

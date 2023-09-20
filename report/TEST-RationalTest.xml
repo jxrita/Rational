@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="chanyanuds-MacBook-Pro.local" name="RationalTest" skipped="0" tests="4" time="0.034" timestamp="2023-09-20T08:04:02">
+  <properties>
+    <property name="ant.library.dir" value="/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="15" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.base:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.compiler:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.datatransfer:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.desktop:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.instrument:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.logging:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.management:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.management.rmi:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.naming:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.net.http:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.prefs:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.rmi:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.scripting:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.se:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.security.jgss:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.security.sasl:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.smartcardio:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.sql:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.sql.rowset:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.transaction.xa:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.xml:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/java.xml.crypto:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.accessibility:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.aot:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.attach:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.charsets:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.compiler:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.crypto.cryptoki:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.crypto.ec:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.dynalink:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.editpad:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.hotspot.agent:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.httpserver:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.incubator.foreign:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.incubator.jpackage:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.internal.ed:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.internal.jvmstat:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.internal.le:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.internal.opt:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.internal.vm.ci:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.internal.vm.compiler:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.internal.vm.compiler.management:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jartool:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.javadoc:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jcmd:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jconsole:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jdeps:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jdi:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jdwp.agent:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jfr:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jlink:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jshell:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jsobject:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.jstatd:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.localedata:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.management:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.management.agent:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.management.jfr:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.naming.dns:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.naming.rmi:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.net:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.nio.mapmode:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.sctp:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.security.auth:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.security.jgss:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.unsupported:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.unsupported.desktop:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.xml.dom:/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home!/jdk.zipfs:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-commons-net.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-xz.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junit4.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jai.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-resolver.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jdepend.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-regexp.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-log4j.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-javamail.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-bcel.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-netrexx.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-swing.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jsch.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junitlauncher.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-junit.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-launcher.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-antlr.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-testutil.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-oro.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-jmf.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-xalan2.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-apache-bsf.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant-commons-logging.jar:/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="java.vm.specification.version" value="15" />
+    <property name="user.country" value="TH" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /Users/jxrita/Desktop/Year4/QA/Junit/Rational/build.xml test" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/jxrita" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2021-01-19" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home" />
+    <property name="file.separator" value="/" />
+    <property name="basedir" value="/Users/jxrita/Desktop/Year4/QA/Junit/Rational" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="15" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.runtime.version" value="15.0.2+7-27" />
+    <property name="user.name" value="jxrita" />
+    <property name="ant.file" value="/Users/jxrita/Desktop/Year4/QA/Junit/Rational/build.xml" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="10.16" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.core.lib" value="/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="/var/folders/t1/604525hn6sz962mttldx3n2c0000gn/T/" />
+    <property name="java.version" value="15.0.2" />
+    <property name="user.dir" value="/Users/jxrita/Desktop/Year4/QA/Junit/Rational" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="/Users/jxrita/Desktop/IntelliJ IDEA CE.app/Contents/lib/ant" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="/Users/jxrita/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.version" value="15.0.2+7-27" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="java.class.version" value="59.0" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.004" />
+  <testcase classname="RationalTest" name="testEqual" time="0.0" />
+  <testcase classname="RationalTest" name="testSubstract" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
